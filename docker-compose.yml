@@ -1,0 +1,68 @@
+version: "3"
+#networks:
+#  dockerapi-dev:
+#     driver: bridge
+
+services:
+  redis-server:
+    image: "redis" 
+  
+  mongo:
+    image: mongo
+    restart: always
+    container_name: 'CarGalleryDb'
+    environment:
+      - MONGO_INITDB_DATABASE= 'CarGalleryDb'
+     # - MONGO_INITDB_ROOT_USERNAME= 'root'
+     # - MONGO_INITDB_ROOT_PASSWORD= 'welcome'
+   # ports:
+   #   - "27017:27017"
+
+
+  web-appl:
+    restart: on-failure
+    depends_on:
+#      - "postgres_image"
+      - "mongo"
+    build: .
+    ports:
+      - "9001:80" #Http
+      - "9005:443"
+    volumes:
+  #    - ${HOME}/.aspnet/https:/root/.aspnet/https/ 
+      - ~/.aspnet/https:/https:ro
+
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=test1234
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+   #   - DB_CONNECTION_STRING: "host=postgres_image;port=5432;database=blogdb;username=bloguser;password=bloguser"
+   #  links: 
+   #     - "mongo:CarGalleryDb"
+   # depends_on:
+   #    - mongo
+   # networks:
+   #   - dockerapi-dev
+
+ # postgres_image :
+ #   image: postgres:latest
+ #   ports:
+ #       - "5432"
+ #   restart: always
+ #   volumes:
+ #       - db_volume: /var/lib/postgresql/database=blogdb
+ #       - ./dbscripts/seed.sql :/docker-entrypoint-initdb.d/seed.sql
+ #   environment:
+ #       POSTGRES_USER: "bloguser"
+ #       POSTGRES_PASSWORD: "bloguser"
+ #       POSTGRES_DB: "blogdb"
+ #   networks:
+ #       - dockerapi-dev
+
+  
+  
+
+
+  
+
