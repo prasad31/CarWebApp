@@ -25,13 +25,7 @@ namespace test1234.Services
             
             cars = database.GetCollection<Car>("Cars");
 
-         //   MongoCredential credential = MongoCredential.CreateCredential("CarGalleryDb", "root","welcome");
-
-            //var client = new MongoClient("mongodb://localhost:27017");
-
-            //  var database = client.GetDatabase("CarGalleryDb");
-            //// var database = "CarGalleryDb";
-            //cars = database.GetCollection<Car>(config.CarsCollectionName);
+        
 
 
 

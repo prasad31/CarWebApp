@@ -28,12 +28,7 @@ namespace test1234.Controllers
             return View(carService.Get());
         }
 
-        //GET: Cars/Details/5
-        //public ActionResult Details(int id)
-        //{
-        //    return View();
-        //}
-
+        
         // GET: Cars/Details/5
         public ActionResult Details(string id)
         {
@@ -56,28 +51,7 @@ namespace test1234.Controllers
             return View();
         }
 
-        //// POST: Cars/Create
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult Create(IFormCollection collection)
-        //{
-        //    try
-        //    {
-        //        // TODO: Add insert logic here
-
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    catch
-        //    {
-        //        return View();
-        //    }
-        //}
-
-        // GET: Cars/Edit/5
-        //public ActionResult Edit(int id)
-        //{
-        //    return View();
-        //}
+        
 
         // GET: Cars/Edit/5
         public ActionResult Edit(string id)
@@ -95,22 +69,7 @@ namespace test1234.Controllers
             return View(car);
         }
 
-        //// POST: Cars/Edit/5
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult Edit(int id, IFormCollection collection)
-        //{
-        //    try
-        //    {
-        //        // TODO: Add update logic here
-
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    catch
-        //    {
-        //        return View();
-        //    }
-        //}
+       
 
         // POST: Cars/Edit/5
         [HttpPost]
@@ -132,28 +91,7 @@ namespace test1234.Controllers
             }
         }
 
-        //// GET: Cars/Delete/5
-        //public ActionResult Delete(int id)
-        //{
-        //    return View();
-        //}
-
-        //// POST: Cars/Delete/5
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult Delete(int id, IFormCollection collection)
-        //{
-        //    try
-        //    {
-        //        // TODO: Add delete logic here
-
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    catch
-        //    {
-        //        return View();
-        //    }
-        //}
+        
 
         // GET: Cars/Delete/5
         public ActionResult Delete(string id)
