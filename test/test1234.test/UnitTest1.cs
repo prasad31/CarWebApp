@@ -14,8 +14,6 @@ namespace test1234.test
             DummyDataDBInitializer data = new DummyDataDBInitializer();
             data.Seed();
 
-            //DummyDataDBInitializer data2 = new DummyDataDBInitializer();
-            //data2.Seed();
 
         }
 
