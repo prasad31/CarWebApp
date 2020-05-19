@@ -37,6 +37,7 @@ namespace test1234.Controllers
                 using (var client = new RedisClient(redisEndpoint))
                 {
                     ViewBag.Visit = client.Increment("Website_Counter", 1);
+                   // session["pagehit"] = ViewBag.Visit;
                    // ViewBag.tempvar = client.IncrBy("testvar", 5);
                 }
 

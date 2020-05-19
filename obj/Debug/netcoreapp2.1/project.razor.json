@@ -2882,6 +2882,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\prasa\\source\\repos\\test1234\\Views\\Cars\\Create.cshtml",
+      "TargetPath": "Views\\Cars\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\prasa\\source\\repos\\test1234\\Views\\Home\\Dummy.cshtml",
       "TargetPath": "Views\\Home\\Dummy.cshtml",
       "FileKind": "mvc"
@@ -2889,6 +2894,11 @@
     {
       "FilePath": "c:\\Users\\prasa\\source\\repos\\test1234\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\prasa\\source\\repos\\test1234\\Views\\Cars\\Delete.cshtml",
+      "TargetPath": "Views\\Cars\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -2912,6 +2922,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\prasa\\source\\repos\\test1234\\Views\\Cars\\Index.cshtml",
+      "TargetPath": "Views\\Cars\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\prasa\\source\\repos\\test1234\\Views\\Cars\\Edit.cshtml",
+      "TargetPath": "Views\\Cars\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\prasa\\source\\repos\\test1234\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -2919,6 +2939,11 @@
     {
       "FilePath": "c:\\Users\\prasa\\source\\repos\\test1234\\Views\\Shared\\_CookieConsentPartial.cshtml",
       "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\prasa\\source\\repos\\test1234\\Views\\Cars\\Details.cshtml",
+      "TargetPath": "Views\\Cars\\Details.cshtml",
       "FileKind": "mvc"
     },
     {

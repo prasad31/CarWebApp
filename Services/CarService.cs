@@ -18,8 +18,8 @@ namespace test1234.Services
 
 
 
-            //MongoClient client = new MongoClient("mongodb://CarGalleryDb:27017");
-            MongoClient client = new MongoClient("mongodb://localhost:27017");
+            MongoClient client = new MongoClient("mongodb://CarGalleryDb:27017");
+           // MongoClient client = new MongoClient("mongodb://localhost:27017");
 
             IMongoDatabase database = client.GetDatabase("CarGalleryDb");
             
@@ -29,7 +29,7 @@ namespace test1234.Services
 
 
 
-        }
+            }
 
             public List<Car> Get()
             {
