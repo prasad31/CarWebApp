@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t carwebapptest -f ./test/test1234.test/Dockerfile
+  - docker build -t carwebapptest -f ./test/test1234.test/Dockerfile .
 
 script:
   - docker run carwebapptest
