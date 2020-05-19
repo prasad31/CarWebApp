@@ -18,6 +18,6 @@ RUN dotnet publish "test1234.test.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-#ENTRYPOINT ["dotnet", "test1234.test.dll"]
+ENTRYPOINT ["dotnet", "test1234.test.dll"]
 #ENTRYPOINT ["dotnet","test", "test1234.test.csproj"]
-ENTRYPOINT ["dotnet", "vstest","./bin/Release/netcoreapp2.1/test1234.test.dll", "--Tests:test2"]
+#ENTRYPOINT ["dotnet", "vstest","./bin/Release/netcoreapp2.1/test1234.test.dll", "--Tests:test2"]
