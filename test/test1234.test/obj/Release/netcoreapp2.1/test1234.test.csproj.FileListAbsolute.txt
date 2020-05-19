@@ -14,6 +14,7 @@ C:\Users\prasa\source\repos\test1234\test\test1234.test\bin\Release\netcoreapp2.
 C:\Users\prasa\source\repos\test1234\test\test1234.test\bin\Release\netcoreapp2.1\test1234.dll
 C:\Users\prasa\source\repos\test1234\test\test1234.test\bin\Release\netcoreapp2.1\test1234.pdb
 C:\Users\prasa\source\repos\test1234\test\test1234.test\obj\Release\netcoreapp2.1\test1234.test.csprojAssemblyReference.cache
+C:\Users\prasa\source\repos\test1234\test\test1234.test\obj\Release\netcoreapp2.1\test1234.test.csproj.CoreCompileInputs.cache
 C:\Users\prasa\source\repos\test1234\test\test1234.test\obj\Release\netcoreapp2.1\test1234.test.AssemblyInfoInputs.cache
 C:\Users\prasa\source\repos\test1234\test\test1234.test\obj\Release\netcoreapp2.1\test1234.test.AssemblyInfo.cs
 C:\Users\prasa\source\repos\test1234\test\test1234.test\obj\Release\netcoreapp2.1\test1234.test.csproj.CopyComplete

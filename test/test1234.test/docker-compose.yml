@@ -1,0 +1,19 @@
+﻿version: "3"
+
+
+services:
+  
+  mongo:
+    image: mongo
+    restart: always
+    container_name: 'CarGalleryDb'
+    environment:
+      - MONGO_INITDB_DATABASE= 'CarGalleryDb'
+
+
+  test-appl:
+    depends_on:
+      - "mongo"
+    build: 
+        context:  ../..
+        dockerfile: ./test/test1234.test/Dockerfile

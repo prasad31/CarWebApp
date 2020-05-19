@@ -10,6 +10,7 @@
         "dependencies": {
           "FluentAssertions": "5.10.3",
           "Microsoft.NET.Test.Sdk": "16.5.0",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.8",
           "coverlet.collector": "1.2.0",
           "test1234": "1.0.0",
           "xunit": "2.4.1",

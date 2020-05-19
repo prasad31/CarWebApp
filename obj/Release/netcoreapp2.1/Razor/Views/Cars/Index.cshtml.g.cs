@@ -63,7 +63,7 @@ using test1234.Models;
             WriteLiteral("\r\n<h2>Car Gallery</h2>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(125, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f9c99416e3a64d6f9c315912984ed707", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "068dc14b18b1463b9ac9c81396c18b7b", async() => {
                 BeginContext(148, 11, true);
                 WriteLiteral("Add New Car");
                 EndContext();

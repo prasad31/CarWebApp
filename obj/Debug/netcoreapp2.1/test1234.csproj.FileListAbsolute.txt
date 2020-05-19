@@ -40,3 +40,4 @@ C:\Users\prasa\source\repos\test1234\obj\Debug\netcoreapp2.1\test1234.dll
 C:\Users\prasa\source\repos\test1234\obj\Debug\netcoreapp2.1\test1234.pdb
 C:\Users\prasa\source\repos\test1234\obj\Debug\netcoreapp2.1\test1234.genruntimeconfig.cache
 C:\Users\prasa\source\repos\test1234\obj\Debug\netcoreapp2.1\test1234.csproj.CopyComplete
+C:\Users\prasa\source\repos\test1234\obj\Debug\netcoreapp2.1\test1234.csprojAssemblyReference.cache
