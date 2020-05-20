@@ -21,6 +21,7 @@ services:
 
   web-appl:
     restart: on-failure
+    container_name: 'web-appl'
     depends_on:
 #      - "postgres_image"
       - "mongo"

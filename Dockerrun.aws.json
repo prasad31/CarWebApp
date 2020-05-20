@@ -1,0 +1,16 @@
+﻿{
+  "AWSEBDockerrunVersion": "1",
+  "volumes": [
+    {
+      "name": "redis-server"
+    }
+  ],
+  "containerDefinitions": [
+    {
+      "name": "redis-server",
+      "image": "redis",
+      "essential": true,
+      "memory": 128
+    }
+  ]
+}
